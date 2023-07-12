@@ -1,0 +1,15 @@
+.one{
+    text-align: center;
+    background-color: aquamarine;
+}
+p{
+    background-color: rgb(58, 58, 42);
+}
+div{
+    background-color: lightgray;
+    padding-left: 0cap;
+    width: 40%;
+    border: 10px darkblue;
+    margin: 20px;
+    font-family: sans-serif;
+}
