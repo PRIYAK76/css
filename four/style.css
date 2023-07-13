@@ -1,0 +1,59 @@
+h1{
+    font-style: italic;
+    color: brown;
+    text-align: center;
+    font-size: xx-large;
+}
+h2,h3{
+    font-style: bold;
+    font-family: 'Times New Roman';
+    color: gray;
+    text-align: center;
+    font-size: medium;
+}
+p{
+    font-family: Cambria;
+    font-size:20px;
+    text-align: justify;
+}
+.cont{
+    font-weight: 500;
+    font-family: 'Times New Roman';
+    color:rgb(113, 122, 119);
+    text-align: center;
+}
+.port{
+    background-image: url("photographer.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 700px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family: 'Times New Roman';
+}
+li{
+    display:inline;
+}
+a{
+    color:#660af0;
+    text-decoration: wavy;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 40px;
+    padding-inline-start: 5%;
+    text-align: center right;
+}
+#para2{
+    color:rgb(62, 59, 56);
+    text-align: right justify;
+    background-image: url(para2.jpg);
+    height: 700px;
+    margin-bottom: 10px;
+    background-blend-mode:lighten;
+    background-repeat:repeat-x;
+    background-position: center ;
+    height: 700px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    box-shadow: 10px 2px 2px 2px rgba(red, green, blue, alpha);
+}
