@@ -1,0 +1,11 @@
+img{
+    position:absolute;
+    z-index: -2;
+    left: 0px;
+    right: 0px;
+    height:200px;
+    width:500px;
+}
+h1{
+   color:blue;
+}
