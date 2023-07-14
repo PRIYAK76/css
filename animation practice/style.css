@@ -1,0 +1,12 @@
+@keyframes slideIn {
+    from{
+        transform:translateX(-360deg)
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.slideIn{
+    animation-name: slideIn;
+    animation-timing-function: ease-in-out;
+}
