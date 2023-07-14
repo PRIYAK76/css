@@ -1,5 +1,49 @@
-.one{
-    font-size: large;
+h1{
+    font: size 50px;
     font-style: italic;
     text-align: center;
+}
+.navbar{
+    background-color: grey;
+    padding: 10px;
+    text-align: justify;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover:not(.active) {
+    background-color: green;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+ a{
+    float: left;
+    border-right:1px solid #bbb;
+  }
+h2{
+    margin:20px 20px;
+    margin-top: 3%;
+}
+h1{
+    border-style: dashed;
+    border-radius: 20%;
+    border-color: rgb(83, 47, 146);
+}
+p1,p{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    
+}
+.imgage{
+    opacity: 01;
+    width:50% ;
+    height:50% ;
 }
