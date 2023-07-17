@@ -30,6 +30,7 @@ p{
     margin-bottom: 10px;
     font-size: medium;
     font-family: 'Times New Roman';
+    /* background-size: cover; */
 }
 li{
     display:inline;
