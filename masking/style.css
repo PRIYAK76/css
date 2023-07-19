@@ -1,0 +1,6 @@
+.maskw{
+    -webkit-mask-image:url(apple-logo.png);
+    mask-image: url(apple-logo.png);
+    -webkit-mask-repeat:no-repeat;
+    mask-repeat:no-repeat;
+}

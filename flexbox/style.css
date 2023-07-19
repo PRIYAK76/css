@@ -1,0 +1,39 @@
+
+.flex-item{
+    color:pink;
+    text-align: center;
+    padding: 15px;
+}
+.item-1{
+    background-color:rgb(81, 141, 193);
+}
+.item-2{
+    background-color:rgb(43, 154, 85);
+}
+.item-3{
+    background-color:rgb(73, 52, 129);
+}
+.item-4{
+    background-color:rgb(208, 128, 215);
+}
+.item-5{ background-color:rgb(230, 106, 106);}
+.item-6{ background-color:rgb(61, 125, 42);}
+.item-7{ background-color:rgb(30, 6, 6);}
+
+
+.container{
+    border:5px solid gray;
+    display:inline-flex;
+    flex-wrap: wrap;
+    height:400px;
+    column-gap: 20px;
+    align-items: flex-end;
+    align-content: space-around;
+    align-items: space-between;
+}
+.flex-item{
+    flex-shrink: 1;
+}
+.item-1{
+    flex: 1 1 200px;
+}

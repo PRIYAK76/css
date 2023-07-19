@@ -1,0 +1,23 @@
+html{
+    font-size: larger;
+}
+.main{
+    background-color: grey;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 210px;
+    padding:10px;
+    animation: light 2s linear infinite;
+}
+@keyframes light {
+    0%{color:rgb(209, 134, 37);}
+    20%{color:rgb(186, 100, 46);
+    transform: rotate(50deg);}
+    90%{color:rgb(201, 80, 43);}
+    60%{color:rgb(180, 74, 36);
+    text-shadow: 20px 20px 50px rgb(235, 188, 20);}
+
+}
