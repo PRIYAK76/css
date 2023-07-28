@@ -8,9 +8,25 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <title>Natours | Exciting tours for adventurous people</title>
+        <title> | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">01 About Natours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">02 Your benifits</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">03 Popular tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">04 Stories</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">05 Book now</a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="header">
             <div class="header__logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="header__logo">
@@ -346,5 +362,22 @@
                 </div>
             </div>
         </footer>
+        <div class="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <h2 class="heading-secondary">Start booking now</h2>
+                    <h3 class="heading-tertiary">Important &ndash; Please read the terms and conditions before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
