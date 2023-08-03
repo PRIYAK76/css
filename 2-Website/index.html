@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
     <title>Windy Ridge Bakery</title>
-</head>
+
     <header class="header">
         <div class="header__logo-box">
              <img src="img/logo.png" alt="Logo" class="header__logo">
         </div>
         <div class="navigation">
-            <ul><a href="#">HOME</a>
-            <a href="#">MENU</a>
-            <a href="#">CONTACT</a>
-            <a href="#">GIFT CARDS</a></ul>
+            <ul><a href="#" id="active">HOME</a>
+            <a href="#" id="__link">MENU</a>
+            <a href="#" id="__link">CONTACT</a>
+            <a href="#" id="__link">GIFT CARDS</a></ul>
         </div>
         <div class="header__img">
         </div>
@@ -23,13 +28,93 @@
             <h1 class="header__text" id="heading"> FRESHLY BAKED</h1>
             <p class="header__text" id="para">Come discover why we are Park City's favorite bakery.</p>
         </div>
-        
+        <span class="material-symbols-outlined" id="down__arrow">
+            <i class="fa fa-angle-down fa-3x" id="fa1"></i>
+            <a class="arrow_text" id="vis"> Scroll Down</a>
+        </span>
     </header>
 
+</head>
+   
 <body>
     <div class="content_box">
         <h2 id="content_box_head">PARK CITY'S FINEST</h2>
-        <p2 id="content_box_para">The Bakery aspires to be more than simply the finest bakery in Park City. We hold ourselves to elevated standards of quality in our foods to ensure that each item we offer is a delight to both the eye and the palate. We strive for consistency so that each visit to our bakery delivers the same reliably satisfying experience while offering an exciting variety of products.  Our products change to showcase seasonal ingredients and the exceptional creative talents of our chefs.</p2>
+        <p2 id="content_box_para">The Bakery aspires to be more than simply the finest bakery in Park City.
+            We hold ourselves to elevated standards of quality in our foods to ensure that each item we offer
+            is a delight to both the eye and the palate. We strive for consistency so that each visit to our 
+            bakery delivers the same reliably satisfying experience while offering an exciting variety of 
+            products.  Our products change to showcase seasonal ingredients and the exceptional creative 
+            talents of our chefs.</p2>
+        <img src="img/img-2.jpg" alt="food" class="image__content_box">
     </div>
+    <section class="next__bgimg">
+        <div id="img_prop">
+        </div>
+        <div class="img3content">
+            <h4 class="header__text2">SWEET + SAVORY</h4>
+            <p3 class="header__para">Our team works hard every day to provide a <br> range of bites to satisfy every 
+                palate.</p3>
+        </div>
+    </section>
+    <section class="final_banner">
+        <div class="images4">
+            <div class="img1">
+                <div class="img2">
+                    <div class="img3">
+                        <div class="img4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="para1">
+            Our team creates artisan breads, French-inspired pastries, and a 
+            full line of savory gourmet take-out, including soups, salads and entrees.
+             We also offer house made specialty cakes, pies and tarts. In addition to retail offerings, 
+             Windy Ridge Bakery also provides all of the breads, desserts and ice creams that everyone can 
+             enjoy at all of our restaurants in the Bill White Restaurants group here in Park City.
+
+             <br>As we expand our offerings of prepared foods to complement our baked goods, The Bakery aims 
+             to be considered the first choice of discerning customers seeking quality take-home meals. 
+             A commitment to service that is friendly, helpful and passionate about food is the companion 
+             to our devotion to quality by which we endeavor to guarantee each customer the highest possible satisfaction.
+        </div>
+
+    </section>
+
 </body>
+
+<footer class="footer__main">
+    <div class="subscribe_box">
+        <h5>SUBSCRIBE</h5>
+        <p6>Sign up with your email adress to recieve news and updates.</p6>
+        <div class="email">
+            <input type="email" class="form__input" placeholder="Email Address" required>
+            <label for="email" class="form__label"></label>
+            <a href="#" class="btn_signup">SIGN UP</a>
+        </div>
+        <p7>We respect your privacy.</p7>
+    </div>
+
+    <section class="privacy">
+        <a1 href="#" class="policy">PRIVACY POLICY</a1>
+    </section>
+
+    <section class="icons__footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </section>
+
+    <section class="location">
+        <h class="l_head">LOCATION</h>
+        <p11 class="l_para"><br>Windy Ridge Bakery <br> 1755 Bonanza Dr. <br> ParkCity,UT - 84060<br>435.647.2906</p11>
+    </section>
+    <div class="hours">
+        <h class="hours__main">HOURS</h>
+        <p11 class="hrs">SUN - THURS: 8 AM - 4 PM</p11>
+        <p11 class="hrs1">FRI - SAT: 8 AM - 6 PM</p11>
+    </div>
+</footer>
 </html>
