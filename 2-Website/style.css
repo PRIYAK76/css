@@ -12,7 +12,6 @@
 }
 .navigation{
     display: block;
-
     top:20px;
     width:30%;
     float: right;
@@ -88,24 +87,27 @@ a{
 #__link:hover {
     opacity:.8;
 }
-#fa1{
-    position: absolute;
+#fa{
+    position: relative;
     bottom:50px;
     color:white;
     left:930px;
+    size:80px;
 }
 #down__arrow:hover{
     visibility: hidden;
     cursor: pointer;
 }
 .arrow_text{
-    top:-10px;
-    left:-40px;
-    display: none;
+    visibility: visible;
     position: absolute;
+    color: transparent;
+    right:900px;
+    top:900px;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 #vis:hover{
-    visibility: visible;
     color:white;
 } 
 
@@ -264,7 +266,7 @@ p7{
     cursor: pointer;
 }
 
-.fa{
+#icons{
     padding: 20px;
     font-size: 20px;
     width: 50px;
@@ -287,13 +289,13 @@ p7{
 
 h{
     color:white;
-    margin-bottom: 30px;font-size: 22px;
+    margin-bottom: 60px;
+    font-size: 28px;
 }
 p11{
-    padding:20px;
-    margin-bottom: 30px;
+
+    margin-bottom: 80px;
+    margin-top: 30px;
     color:white;
-}
-.l_head{
-    margin-top: 300px;
+    
 }
