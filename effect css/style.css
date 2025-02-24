@@ -3,9 +3,10 @@ html{
 }
 .main{
     background-color: grey;
-
 }
-li{
+
+li
+{
     list-style-type: none;
     display: inline-block;
     font-size: 210px;
