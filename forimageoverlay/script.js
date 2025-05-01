@@ -1,5 +1,7 @@
 let value=document.querySelectorAll(".num");
+
 let interval=4000;
+
 value.forEach((value)=>{
     let start=0;
     let end=parseInt(value.getAttribute("data-val"));
