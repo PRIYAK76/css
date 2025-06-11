@@ -1,9 +1,11 @@
 html{
     font-size: larger;
 }
+
 .main{
     background-color: grey;
 }
+
 li
 {
     list-style-type: none;
